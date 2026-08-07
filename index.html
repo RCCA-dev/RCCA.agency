@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RCCA Agency — Creative &amp; Automation Studio</title>
+<meta name="description" content="RCCA Agency builds websites, runs paid campaigns, cuts short-form content and ships AI + n8n automation for growing brands." />
+<meta property="og:title" content="RCCA Agency — Creative &amp; Automation Studio" />
+<meta property="og:description" content="Websites, campaigns, content clipping, video editing, AI automation and n8n workflows from one senior team." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header id="header">
+  <div class="bar wrap">
+    <a class="brand" href="#top"><span class="mark">R</span><span class="wordmark">RCCA</span></a>
+    <nav class="desktop-nav">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a class="btn-outline" href="mailto:rcca.agency@gmail.com">Start a project</a>
+      <button id="theme" class="icon-btn" aria-label="Toggle theme">☾</button>
+    </nav>
+    <div class="mobile-actions">
+      <button id="theme-m" class="icon-btn" aria-label="Toggle theme">☾</button>
+      <button id="burger" class="icon-btn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+  <div id="mobile-nav" hidden>
+    <nav class="wrap">
+      <a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a>
+      <a href="#testimonials">Reviews</a><a href="#contact">Contact</a>
+      <a class="btn-solid" href="mailto:rcca.agency@gmail.com">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero-bg" src="assets/hero.jpg" alt="Abstract cinematic gold render" />
+    <div class="hero-veil"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow reveal">Creative &amp; Automation Studio</p>
+      <h1 class="reveal">We build brands that <span class="gold-text">move</span>, and systems that <span class="gold-text">scale</span>.</h1>
+      <p class="lede reveal">Websites, paid campaigns, short-form content and AI automation — delivered by one senior team, in weeks not quarters.</p>
+      <div class="hero-cta reveal">
+        <a class="btn-solid" href="mailto:rcca.agency@gmail.com">Start a project</a>
+        <a class="btn-ghost" href="#work">See the work</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee"><div class="marquee-track" id="marquee"></div></div>
+
+  <!-- STATS -->
+  <section class="wrap stats" id="stats"></section>
+
+  <!-- SERVICES -->
+  <section class="wrap section" id="services">
+    <p class="eyebrow reveal">Services</p>
+    <h2 class="reveal">Six disciplines, one team.</h2>
+    <div class="grid services-grid" id="services-grid"></div>
+  </section>
+
+  <!-- WORK -->
+  <section class="wrap section" id="work">
+    <p class="eyebrow reveal">Selected work</p>
+    <h2 class="reveal">Results we can point at.</h2>
+    <div class="work-list" id="work-list"></div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="wrap section" id="process">
+    <p class="eyebrow reveal">Process</p>
+    <h2 class="reveal">How we work.</h2>
+    <div class="grid process-grid" id="process-grid"></div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="wrap section" id="testimonials">
+    <p class="eyebrow reveal">Client reviews</p>
+    <h2 class="reveal">What they say after launch.</h2>
+    <div class="grid t-grid" id="t-grid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="wrap section" id="contact">
+    <p class="eyebrow reveal">Contact</p>
+    <h2 class="reveal">Tell us what you're building.</h2>
+    <div class="contact-cols">
+      <form class="reveal" id="contact-form">
+        <label>Name<input name="name" required placeholder="Your name" /></label>
+        <label>Email<input name="email" type="email" required placeholder="you@company.com" /></label>
+        <label>Service
+          <select name="service">
+            <option>Website Development</option><option>Campaign Management</option>
+            <option>Content Clipping</option><option>Video Editing</option>
+            <option>AI Automation</option><option>n8n Workflows</option>
+          </select>
+        </label>
+        <label>Project details<textarea name="message" rows="5" required placeholder="Goals, timeline, budget range…"></textarea></label>
+        <button class="btn-solid" type="submit">Send message</button>
+      </form>
+      <aside class="reveal contact-side">
+        <h3>Direct</h3>
+        <a class="mail" href="mailto:rcca.agency@gmail.com">rcca.agency@gmail.com</a>
+        <p>We reply within one business day. Send goals, timeline and budget range and we'll come back with a route, not a pitch deck.</p>
+        <ul>
+          <li>Discovery call within 48 hours</li>
+          <li>Written scope before any build</li>
+          <li>Weekly preview links, always</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><span class="wordmark">RCCA</span><p>Creative &amp; automation studio building websites, campaigns, content and AI systems.</p></div>
+    <div><h4>Navigate</h4><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+    <div><h4>Contact</h4><a href="mailto:rcca.agency@gmail.com">rcca.agency@gmail.com</a></div>
+  </div>
+  <div class="wrap copyright">© <span id="year"></span> RCCA Agency. All rights reserved.</div>
+</footer>
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
