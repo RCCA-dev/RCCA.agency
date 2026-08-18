@@ -1,3 +1,0 @@
-user-agent:*
-Allow:/
-sitemap:https://rcca.site/sitemap.xml
