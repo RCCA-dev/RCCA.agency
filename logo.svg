@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="#0A0A0A"/>
+
+  <!-- Custom-drawn "R" monogram in the site's gold -->
+  <g fill="#D4A03C">
+    <!-- vertical stem -->
+    <rect x="168" y="140" width="54" height="232" rx="8"/>
+
+    <!-- bowl of the R -->
+    <path d="
+      M 168 140
+      H 268
+      C 320 140 356 172 356 222
+      C 356 264 330 292 292 300
+      L 222 300
+      L 222 246
+      L 280 246
+      C 296 246 302 236 302 222
+      C 302 208 296 198 280 198
+      L 222 198
+      L 222 140
+      Z" />
+
+    <!-- diagonal leg -->
+    <path d="
+      M 236 292
+      L 320 372
+      C 328 380 328 392 320 400
+      L 300 400
+      C 294 400 289 398 285 393
+      L 214 320
+      Z" />
+
+    <!-- automation node accent -->
+    <circle cx="380" cy="150" r="16"/>
+    <circle cx="380" cy="150" r="26" fill="none" stroke="#D4A03C" stroke-width="6" opacity="0.45"/>
+  </g>
+</svg>
